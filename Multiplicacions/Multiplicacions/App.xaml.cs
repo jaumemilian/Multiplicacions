@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace Multiplicacions
 {
@@ -10,7 +8,7 @@ namespace Multiplicacions
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new Taules());
         }
 
         protected override void OnStart()
